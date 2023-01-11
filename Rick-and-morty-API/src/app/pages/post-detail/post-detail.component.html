@@ -1,0 +1,12 @@
+<h1>Detalle del personaje</h1>
+<hr>
+<div class="img-detail">
+    <img [src]="response?.image" />
+    <h5> {{ response?.name }} </h5>
+    <p>Status: {{ response?.status }}</p>
+    <p>Specie: {{response?.species }}</p>
+    <p>Gender: {{ response?.gender }}</p>
+    <p>Origin: {{ response?.origin.name }}</p>
+    <p>Location: {{ response?.location.name }}</p>
+    <a href="{{ response?.location.url }}">{{ response?.location.url }}</a>
+</div>

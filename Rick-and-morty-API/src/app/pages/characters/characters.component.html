@@ -1,0 +1,11 @@
+<h1>Listado de Personajes</h1>
+<hr />
+<div  class="card">
+  <div [routerLink]="['/','character', character?.id]" class="container" *ngFor="let character of characters">
+    <img class="img-container" src="{{ character.image }}" />
+    <h5> {{ character.name }} </h5>
+    <p>Status: {{ character.status }}</p>
+    <p>Specie: {{ character.species }}</p>
+    <p>Gender: {{ character.gender }}</p>
+  </div>
+</div>
