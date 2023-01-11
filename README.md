@@ -22,6 +22,10 @@ $ ng serve -o
 #### Detalle de Personaje con Manejo de Rutas
 ![image](https://github.com/Edwingaviria/Consumo-de-Api-RickAndMorty/blob/main/Rick-and-morty-API/src/assets/Pantalla_de_detalle_manejo_de_rutas.png)
 
+# Desplegado en
+```
+https://consumo-api-angular.netlify.app/
+```
 ## Elaborado con tecnología
 Angular 🅰️
 
